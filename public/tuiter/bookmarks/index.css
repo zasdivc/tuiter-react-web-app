@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+}
+
+.wd-border {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-pos-left16 {
+    position: relative;
+    left: 16px;
+}
+
+.wd-pos-left-float12 {
+    float: left;
+    margin-left: 12px;
+}
+
+.wd-pos-bot-margin12 {
+    margin-left: 12px;
+}
+
+.wd-pos-top12 {
+    position: relative;
+    top: 12px;
+}
+
+.wd-pos-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    float: left;
+    margin-left: 16px;
+}
+
+.wd-pic {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 504px;
+    height: 264px;
+}
+
+.wd-font-size-20 {
+    font-size: 20px;
+}
+
+.wd-font-size-15 {
+    font-size: 15px;
+}
+
+.wd-font-size-13 {
+    font-size: 13px;
+}
+
+.wd-p-max-width {
+    max-width: 506px;
+}
+
+.wd-font-color-white {
+    color: white;
+}
+
+.wd-font-color-lightGrey {
+    color: lightgrey;
+}
+
+.float-done {
+    clear: both;
+}
+
+.wd-padding-all12 {
+    padding: 12px;
+}
+
+.wd-pos-icon1 {
+    float: left;
+}
+.wd-pos-icon2 {
+    float: left;
+}
+.wd-pos-icon3 {
+    float: left;
+}
+.wd-pos-icon4 {
+    float: left;
+}
+
+.wd-pos-icons {
+    display: flex;
+    justify-content: space-between;
+}
+.red-color {
+    color:red;
+}

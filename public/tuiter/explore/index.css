@@ -1,0 +1,115 @@
+body {
+    background-color: black;
+}
+
+.wd-pos-left16 {
+    position: relative;
+    left: 16px;
+}
+
+.wd-font-grey {
+    color: grey;
+}
+
+.wd-bg-search {
+    background: darkgrey;
+}
+
+.wd-shape-search {
+    width: 90%;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.wd-shape-picture {
+    float: right;
+    margin-right: 16px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-float-right {
+    float: right;
+}
+
+.float-done {
+    clear: both;
+}
+
+.wd-shape-search-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.wd-font-blue {
+    color: rgb(29,161,242);
+}
+
+.wd-B-style {
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-B-border-first {
+    border-bottom: 5px solid rgb(29,161,242)
+}
+
+.wd-border-bottom-grey {
+    border-bottom: 2px solid rgb(110, 118, 125)
+}
+
+.wd-font-size-13 {
+    font-size: 13px
+}
+
+.wd-font-size-14 {
+    font-size: 14px
+}
+
+.wd-font-size-16 {
+    font-size: 16px
+}
+
+.wd-font-color-lightGrey {
+    color: lightgrey;
+}
+
+.wd-font-color-DGrey {
+    color: rgb(110, 118, 125)
+}
+
+.wd-font-color-white {
+    color: white;
+}
+
+.wd-pos-1 {
+    float: left;
+}
+
+.wd-pos-2 {
+    float: left;
+}
+
+.wd-pos-3 {
+    float: left;
+}
+
+.wd-pos-4 {
+    float: left;
+}
+
+.wd-pos-5 {
+    float: left;
+}
+
+.wd-pos-6 {
+    float: left;
+}
