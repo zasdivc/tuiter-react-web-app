@@ -1,98 +1,243 @@
 <head>
-    <link href="index.css"
-          rel="stylesheet"/>
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
 </head>
+
 <body>
-<!--A -->
-<div class="wd-pos-left16 ">
-    <img src="https://m.media-amazon.com/images/I/41HeL2cy9LL.png" class="wd-float-left wd-shape-search-icon">
-    <input class="wd-pos-left16 wd-font-grey wd-shape-search  wd-bg-search wd-float-left" placeholder="Search Twitter">
-    <a href="explore-settings.html" >
-        <img src="https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/settings-gear-elements-glossy-icon_Gk4bhhIO_thumb.jpg" class="wd-float-left wd-shape-search-icon">
-    </a>
-    <div class="float-done"></div>
+<div class="container">
+    <div class="row align-items-start">
+
+
+        <!-- Left Bar -->
+        <div class="col-2">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <i class="fab fa-twitter" style="color:cornflowerblue"></i>
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-home" style="float: left"></i>
+                    <i class="d-none d-lg-block "  style="float: left; margin-left: 10px">Home</i>
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-hashtag " style="float: left"></i>
+                    <i class="d-none d-lg-block"  style="float: left; margin-left: 10px; font-weight: bold">Explore</i>
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-bell" style="float: left"></i>
+                    <i class="d-none d-lg-block"  style="float: left; margin-left: 10px">Notifications</i>
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-envelope" style="float: left"></i>
+                    <i class="d-none d-lg-block"  style="float: left; margin-left: 10px">Messages</i>
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-bookmark" style="float: left"></i>
+                    <i class="d-none d-lg-block"  style="float: left; margin-left: 10px">Bookmarks</i>
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-list-ul" style="float: left"></i>
+                    <i class="d-none d-lg-block"  style="float: left; margin-left: 10px">Lists</i>
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-user" style="float: left"></i>
+                    <i class="d-none d-lg-block"  style="float: left; margin-left: 10px">Profile</i>
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-comment-dots" style="float: left"></i>
+                    <i class="d-none d-lg-block"  style="float: left; margin-left: 10px">More</i>
+                </li>
+                <li class="list-group-item rounded-pill d-flex justify-content-center bg-info">
+                    Tweet
+                </li>
+            </ul>
+        </div>
+
+
+        <!-- Middle Bar -->
+        <div class="col-6">
+            <div class="input-group">
+                <span class="input-group-text">
+                    <i class="fas fa-search"></i>
+                </span>
+                <input type="text" class="form-control" placeholder="Search">
+                <span class="input-group-text">
+                    <i class="fas fa-cog"></i>
+                </span>
+            </div>
+
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">For you</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sports</a>
+                </li>
+                <li class="nav-item d-none d-sm-block">
+                    <a class="nav-link" href="#" tabindex="-1">Entertainment</a>
+                </li>
+            </ul>
+
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                    <div>
+                        <img src="https://nypost.com/wp-content/uploads/sites/2/2020/09/ELON.SPACEX.web_.jpg?resize=1536,1024&quality=75&strip=all" class="float-start img" alt="..." width="100%">
+                    </div>
+                </a>
+
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                    <div class="d-flex w-100">
+                        <h6 class="mb-1" style="font-size: 10px">Politics - Trending </h6>
+                        <i class="fas fa-ellipsis-h position-absolute end-0" style="margin-right: 10px"></i>
+                    </div>
+                    <div>
+                        <small style="font-size: 10px">nypost.com/wp-content And some small print.</small>
+                    </div>
+                    <div>
+                        <small style="font-size: 10px; color:lightgrey" class="">4,953 Tweets</small>
+                    </div>
+
+                </a>
+
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                    <div class="d-flex w-100">
+                        <h6 class="mb-1" style="font-size: 10px">#InfinityPool</h6>
+                    </div>
+                    <div>
+                        <small style="font-size: 10px">nypost.com/wp-content And some small print.</small>
+                    </div>
+                    <div>
+                        <i class="fas fa-arrow-up"></i>
+                        <small style="font-size: 10px; color:lightgrey" class="">Promoted by NEON</small>
+                    </div>
+
+                </a>
+
+
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                    <div class="d-flex w-100">
+                        <h6 class="mb-1" style="font-size: 10px">Sports - Trending </h6>
+                        <i class="fas fa-ellipsis-h position-absolute end-0" style="margin-right: 10px"></i>
+                    </div>
+                    <div>
+                        <small style="font-size: 10px">RIP Bean</small>
+                    </div>
+                    <div>
+                        <small style="font-size: 10px; color:lightgrey" class="">18k Tweets</small>
+                    </div>
+
+                </a>
+
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                    <div class="d-flex w-100">
+                        <h6 class="mb-1" style="font-size: 10px">Politics - Trending </h6>
+                        <i class="fas fa-ellipsis-h position-absolute end-0" style="margin-right: 10px"></i>
+                    </div>
+                    <div>
+                        <small style="font-size: 10px">Durham</small>
+                    </div>
+                    <div>
+                        <small style="font-size: 10px; color:lightgrey" class="">Trending with <span style="color:blue">Barr</span>, <span style="color:blue">Barr</span></small>
+                    </div>
+
+                </a>
+
+
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                    <div class="d-flex w-100">
+                        <h6 class="mb-1" style="font-size: 10px">Trending in business and finance </h6>
+                        <i class="fas fa-ellipsis-h position-absolute end-0" style="margin-right: 10px"></i>
+                    </div>
+                    <div>
+                        <small style="font-size: 10px">#DirectedEvolution</small>
+                    </div>
+                    <div>
+                        <small style="font-size: 10px; color:lightgrey" class="">172k Tweets</small>
+                    </div>
+
+                </a>
+            </div>
+
+        </div>
+
+        <!-- Right Bar -->
+        <div class="col-4 d-none d-md-block">
+            <ul class="list-group">
+                <li class="list-group-item">Who to follow</li>
+
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="http://coursera-university-assets.s3.amazonaws.com/6a/123cbd870d4619aab9613bb25578da/Red-N-on-white-background.png" width="50px" class="rounded-circle">
+                        </div>
+                        <div class="col">
+                            <a class="mb-1 position-relative" style="font-size: 10px">Northeastern U. </a>
+                            <i class="fas fa-check-circle position-relative"></i>
+                            <div class="mb-1" style="font-size: 10px">@Northeastern </div>
+                        </div>
+
+                        <div class="col-3">
+                            <p class="rounded-pill d-flex justify-content-center" style="color:white; background:black">
+                                Follow
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+
+
+
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="https://cdn.mos.cms.futurecdn.net/9mW7vR3kB4ZhxC75wWFChe.jpg" width="50px" class="rounded-circle">
+                        </div>
+                        <div class="col">
+                            <a class="mb-1 position-relative" style="font-size: 10px">Matt Wallace </a>
+                            <i class="fas fa-check-circle position-relative"></i>
+                            <div class="mb-1" style="font-size: 10px">@MattWallace </div>
+                        </div>
+
+                        <div class="col-3">
+                            <p class="rounded-pill d-flex justify-content-center" style="color:white; background:black">
+                                Follow
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="data:image/png;base64,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" width="50px" class="rounded-circle">
+                        </div>
+                        <div class="col">
+                            <a class="mb-1 position-relative" style="font-size: 10px">PointsBet </a>
+                            <i class="fas fa-check-circle position-relative"></i>
+                            <div class="mb-1" style="font-size: 10px">@PointsBet </div>
+                        </div>
+
+                        <div class="col-3">
+                            <p class="rounded-pill d-flex justify-content-center" style="color:white; background:black">
+                                Follow
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+
+
+            </ul>
+        </div>
+
+
+
+    </div>
 </div>
-
-<!--B -->
-<div class="wd-pos-left16 wd-B-style wd-border-bottom-grey">
-    <div class="wd-font-blue wd-pos-1 wd-B-border-first" >For you</div>
-    <div class="wd-font-grey wd-pos-2">Trending</div>
-    <div class="wd-font-grey wd-pos-3">COVID-19</div>
-    <div class="wd-font-grey wd-pos-4">News</div>
-    <div class="wd-font-grey wd-pos-5">Sports</div>
-    <div class="wd-font-grey wd-pos-6">Entertainment</div>
-    <div class="float-done"></div>
-</div>
-
-<!--C -->
-<div class="wd-border-bottom-grey wd-font-size-13 wd-font-color-DGrey">
-    <div>
-        <a>Trending in Science</a>
-        </br>
-        <a class="wd-font-size-16 wd-font-color-white">Starship</a>
-        </br>
-        <a>55.5k Tweets</a>
-    </div>
-
-    </br>
-
-    <div>
-        <a>Sports - Trending</a>
-        </br>
-        <a class="wd-font-size-16 wd-font-color-white">Joe Rogan</a>
-        </br>
-        <a>5,218 Tweets</a>
-    </div>
-
-    </br>
-</div>
-
-<!--D -->
-<div class="wd-font-color-white wd-border-bottom-grey">
-    <div>
-        <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iY82Mc_tGysw/v1/1400x-1.jpg" class="wd-shape-picture">
-        <a class="wd-font-size-14">The New York Times</a>
-        <a class="wd-font-color-lightGrey wd-font-size-13">- Today</a>
-        </br>
-        <a wd-font-size-16>CNN's Cuomo Conundrum: A star anchor with a brother in trouble</a>
-        <div class="float-done"></div>
-    </div>
-
-    </br>
-
-    <div>
-        <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iY82Mc_tGysw/v1/1400x-1.jpg" class="wd-shape-picture">
-        <a class="wd-font-size-14">The New York Times</a>
-        <a class="wd-font-color-lightGrey wd-font-size-13">- Yesterday</a>
-        </br>
-        <a wd-font-size-16>ABC's: A star anchor with a sister in trouble</a>
-        <div class="float-done"></div>
-    </div>
-
-    </br>
-</div>
-
-<!--E -->
-<div class="wd-border-bottom-grey">
-    <div>
-        <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iY82Mc_tGysw/v1/1400x-1.jpg" class="wd-shape-picture">
-        <a class="wd-font-color-lightGrey wd-font-size-14 ">Covid-19 - Live</a>
-        </br>
-        <a class="wd-font-color-white wd-font-size-16">Covid-19 News and Updates for Toronto</a>
-        <div class="float-done"></div>
-    </div>
-
-    </br>
-
-    <div>
-        <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iY82Mc_tGysw/v1/1400x-1.jpg" class="wd-shape-picture">
-        <a class="wd-font-color-lightGrey wd-font-size-14 ">NBA - Live</a>
-        </br>
-        <a class="wd-font-color-white wd-font-size-16">NBA News and Updates for Toronto</a>
-        <div class="float-done"></div>
-    </div>
-
-    </br>
-</div>
-
 </body>
