@@ -17,9 +17,11 @@ import { configureStore }
 // import HomeComponent from "./home-screen/HomeList";
 import {Provider} from "react-redux";
 const store = configureStore(
-    {reducer: {who: whoReducer,
-                        tuits: tuitsReducer,
-                        profile: profileReducer}});
+    {reducer:
+            {who: whoReducer,
+            tuitsData: tuitsReducer,
+                profile: profileReducer}}
+);
 
 
 
