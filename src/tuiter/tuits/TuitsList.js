@@ -14,18 +14,22 @@ function TuitsList ()  {
 
     return (
         <ul className="list-group">
+            <div className="list-group-item">
             {
                 loading &&
                 <li className="list-group-item">
                     Loading...
                 </li>
             }
+            </div>
+            <div className="list-group-item">>
             {
                 tuits.map(tuit =>
                     <TuitItem
                         tuit={tuit} key={tuit._id}/>
                 )
             }
+            </div>
         </ul>
     );
 }
